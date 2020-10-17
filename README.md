@@ -4,9 +4,7 @@ git clone https://github.com/Forme-Games/vk-killer/
 
 cd vk-killer 
 
-sh Linux.sh
-
-node 1
+sh start.sh
 
 #Настройка: в config.js (nano config.js)
 
@@ -22,9 +20,7 @@ git clone https://github.com/Forme-Games/vk-killer/
 
 cd vk-killer
 
-sh Termux.sh
-
-node 1
+sh start.sh
 
 #Настройка: в config.js (nano config.js)
 
