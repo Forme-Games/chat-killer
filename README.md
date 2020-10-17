@@ -1,6 +1,6 @@
 # Install Linux
 
-git clone
+git clone https://github.com/Forme-Games/vk-killer/
 
 cd vk-killer 
 
@@ -18,7 +18,7 @@ node 1
 
 # install Termux
 
-git clone
+git clone https://github.com/Forme-Games/vk-killer/
 
 cd vk-killer
 
