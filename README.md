@@ -6,7 +6,7 @@ cd vk-killer
 
 sh start.sh
 
-#Настройка: в config.js (nano config.js)
+Настройка: в config.js (nano config.js)
 
 1. const TOKEN = "Ваш токен группы"
 
