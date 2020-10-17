@@ -1,6 +1,6 @@
 const colors = require('colors');
 
-console.log(`Initializing abasov's bot...`.blue.bold);
+console.log(`Start vk-killer`.blue.bold);
 const { 
     TOKEN,
     CHAT_SPAM,
@@ -12,7 +12,7 @@ const {
     TIME
 } = require("./config");
 
-console.log(`abasov''s bot >> Starting...`.yellow.bold);
+console.log(`Vk-killer >> Attack`.blue.bold);
 
 const { VK, Keyboard } = require("vk-io");
 const vk = new VK({
@@ -28,7 +28,7 @@ vk.updates.use(async (ctx, next) => {
     }
 
     if (ctx.isChat) {
-    	console.log(`abasov's bot >> New chat has been attacked.`.green.bold);
+    	console.log(`Vk-killer >> New chat has been attacked.`.green.bold);
         setInterval(() => {
             ctx.send({
                 message: randomFromArray(CHAT_SPAM),
@@ -45,8 +45,8 @@ vk.updates.use(async (ctx, next) => {
 });
 
 vk.updates.startPolling()
-.then(() => console.log(`abasov's bot >> Started...`.green.bold));
-console.log(`abasov's version`.red.bold);
+.then(() => console.log(`Attack >> Started...`.blue.bold));
+console.log(`Started`.blue.bold);
 
 const randomInt = (x, y) => y ? Math.round(Math.random() * (y - x)) + x : Math.round(Math.random() * x);
 const randomFromArray = (array) => array[randomInt(array.length - 1)];
