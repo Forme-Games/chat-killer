@@ -1,3 +1,1 @@
-# Install Linux
-
-apt install nodejs
+node 1
