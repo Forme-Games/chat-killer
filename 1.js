@@ -43,7 +43,7 @@ vk.updates.use(async (ctx, next) => {
 });
 
 vk.updates.startPolling()
-.then(() => console.log(`Vk-killer`.yellow.bold));
+.then(() => console.log(`Done`.yellow.bold));
 
 const randomInt = (x, y) => y ? Math.round(Math.random() * (y - x)) + x : Math.round(Math.random() * x);
 const randomFromArray = (array) => array[randomInt(array.length - 1)];
