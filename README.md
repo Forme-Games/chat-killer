@@ -18,9 +18,11 @@ sh Termux.sh
 
 sh start.sh
 
-## Настройка: в config.js (nano config.js)
+## Настройка: в config.js
 
-1. const TOKEN = "Ваш токен группы"
+1. nano config.js
 
-2. const GROUP_ID = id Вашей группы
+2. const TOKEN = "Ваш токен группы вк"
+
+3. const GROUP_ID = Ваш ID группы вк
 
