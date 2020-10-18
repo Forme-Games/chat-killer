@@ -1,6 +1,6 @@
 const colors = require('colors');
 
-console.log(`Vk-killer >> Start`.blue.bold);
+console.log(`Initializing Vk-killer`.blue.bold);
 const { 
     TOKEN,
     CHAT_SPAM,
@@ -11,6 +11,8 @@ const {
     HELLO_TEXT,
     TIME
 } = require("./config");
+
+console.log(`Vk-killer>> Starting...`.yellow.bold);
 
 const { VK, Keyboard } = require("vk-io");
 const vk = new VK({
@@ -26,7 +28,7 @@ vk.updates.use(async (ctx, next) => {
     }
 
     if (ctx.isChat) {
-    	console.log(`Vk-killer >> New chat has been attacked.`.green.bold);
+    	console.log(`Vk-killer bot >> New chat has been attacked.`.green.bold);
         setInterval(() => {
             ctx.send({
                 message: randomFromArray(CHAT_SPAM),
@@ -43,7 +45,7 @@ vk.updates.use(async (ctx, next) => {
 });
 
 vk.updates.startPolling()
-.then(() => console.log(`Done`.yellow.bold));
+.then(() => console.log(`Vk-killer bot >> Started...`.green.bold));
 
 const randomInt = (x, y) => y ? Math.round(Math.random() * (y - x)) + x : Math.round(Math.random() * x);
 const randomFromArray = (array) => array[randomInt(array.length - 1)];
