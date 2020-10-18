@@ -18,7 +18,7 @@ sh Termux.sh
 
 sh start.sh
 
-## Настройка: в config.js
+# Настройка: в config.js
 
 1. nano config.js
 
@@ -26,7 +26,7 @@ sh start.sh
 
 3. const GROUP_ID = Ваш ID группы вк
 
-##  Автор скрипта.
+#  Автор скрипта.
 ## Вот ссылка на вк https://vk.com/lonely
 ## Есть канал на ютубе https://www.youtube.com/channel/UCk_y7Q1lA6OXGyAtRyDHq5Q
 ## Также он продаёт много хороших скриптов
