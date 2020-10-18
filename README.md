@@ -1,3 +1,4 @@
+<center>
 # Install Linux
 
 git clone https://github.com/Forme-Games/vk-killer/
