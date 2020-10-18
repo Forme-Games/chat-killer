@@ -1,4 +1,5 @@
 pkg install nodejs
-pkg install pip
-pip install vk_api
-node 1
+pkg install nodejs-lst
+npm install colors
+npm install vk-io
+pip install vk-api
