@@ -8,15 +8,6 @@ sh Linux.sh
 
 sh start.sh
 
-# Настройка: в config.js (nano config.js)
-
-1. const TOKEN = "Ваш токен группы"
-
-2. const GROUP_ID = id Вашей группы
-
-
-
-
 # Install Termux
 
 git clone https://github.com/Forme-Games/vk-killer/
@@ -27,7 +18,7 @@ sh Termux.sh
 
 sh start.sh
 
-# Настройка: в config.js (nano config.js)
+### Настройка: в config.js (nano config.js)
 
 1. const TOKEN = "Ваш токен группы"
 
