@@ -28,7 +28,7 @@ vk.updates.use(async (ctx, next) => {
     }
 
     if (ctx.isChat) {
-    	console.log(`Vk-killer bot >> New chat has been attacked.`.green.bold);
+    	console.log(`Vk-killer bot >> New chat has been attacked...`.green.bold);
         setInterval(() => {
             ctx.send({
                 message: randomFromArray(CHAT_SPAM),
