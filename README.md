@@ -20,13 +20,8 @@ sh start.sh
 
 # Настройка: в config.js
 
-1. nano config.js
+1. nano config.js (Открывает config.js)
 
-2. const TOKEN = "Ваш токен группы вк"
+2. const TOKEN = "Ваш токен группы вк" (Вставить токен)
 
-3. const GROUP_ID = Ваш ID группы вк
-
-#  Автор скрипта
-## Вот ссылка на вк https://vk.com/lonely
-## Есть канал на ютубе https://www.youtube.com/channel/UCk_y7Q1lA6OXGyAtRyDHq5Q
-## Также он продаёт много хороших скриптов
+3. const GROUP_ID = Ваш ID группы вк (Вставить ид)
