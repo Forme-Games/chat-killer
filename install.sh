@@ -10,12 +10,10 @@ echo "-------------"
 read numb
 if [ $numb = "1" ]
 then
-	clear 
         sh Linux.sh
 else
 if [$numb = "2" ]
 then
-     clear
      sh Termux.sh
 
           fi
