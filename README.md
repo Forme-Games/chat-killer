@@ -1,20 +1,10 @@
-# Install Linux
+# Install Linux | Temux
 
 git clone https://github.com/Forme-Games/vk-killer/
 
 cd vk-killer 
 
-sh Linux.sh
-
-sh start.sh
-
-# Install Termux
-
-git clone https://github.com/Forme-Games/vk-killer/
-
-cd vk-killer 
-
-sh Termux.sh
+sh install.sh
 
 sh start.sh
 
