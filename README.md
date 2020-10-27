@@ -2,7 +2,7 @@
 
 git clone https://github.com/Forme-Games/chat-killer/
 
-cd vk-killer 
+cd chat-killer 
 
 sh install.sh
 
