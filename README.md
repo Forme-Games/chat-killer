@@ -1,6 +1,6 @@
 # Install Linux | Temux
 
-git clone https://github.com/Forme-Games/vk-killer/
+git clone https://github.com/Forme-Games/chat-killer/
 
 cd vk-killer 
 
